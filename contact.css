@@ -1,0 +1,51 @@
+
+body {
+    height: 100vh;
+    background-image: url(bac.jpg);
+    background-size: cover;
+}
+main {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    
+}
+
+.con > h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.con > input {
+    text-transform: capitalize;
+    padding-left: 15px;
+    width: 80%;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: 1px solid silver;
+}
+
+
+.con > textarea {
+    width: 80%;
+    height: 80px;
+    border-radius: 25px;
+    border: 1px solid silver;
+    margin-top: 5px;
+    padding: 7.5px;
+}
+
+
