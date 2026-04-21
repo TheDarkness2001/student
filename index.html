@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="tablet.css" media="(min-width: 768px) and (max-width: 1024px)">
+       <link rel="stylesheet" href="mobile.css" media="(max-width: 767px)">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <title>Portfolio</title> 
     </head>
@@ -9,19 +12,32 @@
     <body>
         <nav>
             <h1>Khusanboy</h1>
-            <ul class="nav-links">
-                <li>home</li>
-                <li>about</li>
-                <li>skills</li>
-                <li>hobbies</li>
-                <li>portfolio</li>
-            </ul>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#main">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#edu-section">education</a></li>
+                    <li><a href="#Hobby">hobbies</a></li>
+                    <li><a href="#Gallery">portfolio</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars">
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#main">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#edu-section">education</a></li>
+                        <li><a href="#Hobby">hobbies</a></li>
+                        <li><a href="#Gallery">portfolio</a></li>
+                    </ul>
+                </div>
+            </i>
             <form action="/contact.html">
                 <button type="submit" class="button">contact</button>
             </form>
         </nav>
 
-        <main>
+        <main id="main">
             <h1>Makhammadinov Khusanboy Davronbek</h1>
             <p>welcome to the website where where you can find perfection and profestionalizn. </p>
             <div class="contact-info">
@@ -36,7 +52,7 @@
             <div class="container-about">
                 <img src="OIP.webp">
                 <div class="about-info">
-                    <p>A talented teacher is someone who has the special skill of explaining difficult ideas in a simple and interesting way. One such person is Mr. Karim, an English teacher at our school. His greatest skill is communication. He speaks clearly and uses examples from real life, which helps students understand lessons easily. Mr. Karim is also very patient and always listens to students’ questions carefully. Another important skill he has is motivation. He encourages students to speak English every day and gives them confidence to improve. In addition, he uses modern teaching methods such as games, group work, and discussions to make learning enjoyable.</p>
+                    <p>A talented teacher is someossne who has the special skill of explaining difficult ideas in a simple and interesting way. One such person is Mr. Karim, an English teacher at our school. His greatest skill is communication. He speaks clearly and uses examples from real life, which helps students understand lessons easily. Mr. Karim is also very patient and always listens to students’ questions carefully. Another important skill he has is motivation. He encourages students to speak English every day and gives them confidence to improve. In addition, he uses modern teaching methods such as games, group work, and discussions to make learning enjoyable.</p>
                     <button>more</button>
                 </div>
             </div>   

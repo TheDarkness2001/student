@@ -1,0 +1,252 @@
+/* Mobile styles - max-width: 767px */
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.nav-links {
+    display: none;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 4% 5%;
+    position: relative;
+}
+
+nav > h1 {
+    font-size: 1.5rem;
+}
+
+nav > i {
+    visibility: visible;
+    margin-right: 0;
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+nav > form {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #2e2d33;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-align: left;
+    z-index: 100;
+}
+
+nav > i:hover .dropdown-content,
+nav > i:active .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul li {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.dropdown-content ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 0 5%;
+}
+
+main > h1 {
+    margin-top: 5rem;
+    font-size: 24px;
+}
+
+main > p {
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.contact-info {
+    flex-direction: column;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 100%;
+    padding: 5%;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 14px;
+}
+
+#about {
+    margin-left: 0;
+    margin-top: 3rem;
+    padding: 0 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#about > h2 {
+    margin-left: 0;
+    font-size: 28px;
+}
+
+.container-about {
+    display: block;
+    width: 100%;
+}
+
+.container-about > img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-info {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about-info > p {
+    font-size: 14px;
+    margin-right: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#edu-section {
+    margin-top: 3rem;
+}
+
+#edu-section > h2 {
+    margin-left: 1rem;
+    font-size: 32px;
+}
+
+.container-edu {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    padding: 0 5%;
+    gap: 1rem;
+}
+
+.container-edu > div {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card-edu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-edu > img {
+    width: 120px;
+    height: 120px;
+}
+
+.card-edu > p {
+    margin: 0.5rem;
+    font-size: 14px;
+}
+
+.card-edu > a {
+    border: 1px solid silver;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: aqua;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+#Hobby > h2 {
+    margin-left: 1rem;
+    font-size: 32px;
+}
+
+.container-hob {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card-hob {
+    margin-left: 0;
+    position: relative;
+}
+
+.card-hob > img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-hob > p {
+    position: absolute;
+    top: 50%;
+    left: 230%;
+    transform: translate(-50%, -50%);
+    padding: 0.3rem 0.8rem;
+    width: auto;
+    min-width: 80px;
+    background-color: aqua;
+    border-radius: 15px;
+    visibility: hidden;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#Gallery > h2 {
+    margin-left: 1rem;
+    font-size: 32px;
+}
+
+.container-gal {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-gal > img {
+    height: 30vh;
+    width: 100%;
+}
+
+footer {
+    flex-direction: column;
+    margin: 5% 5% 150px 5%;
+    min-height: auto;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer > h1 {
+    font-size: 2rem;
+}
+
+footer ul li {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.icons {
+    justify-content: center;
+    margin-left: 0;
+    padding-bottom: 3rem;
+}
